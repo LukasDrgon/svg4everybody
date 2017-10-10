@@ -1,6 +1,6 @@
 # SVG for Everybody
 
-[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
+[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci] [![jsDelivr Hits][jsdelivr-img]][jsdelivr]
 
 [SVG for Everybody] adds [SVG External Content] support to [all browsers].
 
@@ -215,7 +215,9 @@ $ svgo spritemap.svg
 [ci]:      https://travis-ci.org/jonathantneal/svg4everybody
 [ci-img]:  https://img.shields.io/travis/jonathantneal/svg4everybody.svg
 [npm]:     https://www.npmjs.com/package/svg4everybody
-[npm-img]: https://img.shields.io/npm/v/svg4everybody.svg
+[npm-img]: https://img.shields.io/npm/v/svg4everybody.svg\
+[jsdelivr]: https://www.jsdelivr.com/package/npm/svg4everybody
+[jsdelivr-img]: https://data.jsdelivr.com/v1/package/npm/svg4everybody/badge?style=rounded
 
 [all browsers]: http://caniuse.com/svg
 [David Storey]: https://twitter.com/dstorey/status/626514631884804096
