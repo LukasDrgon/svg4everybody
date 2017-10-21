@@ -1,6 +1,6 @@
 # SVG for Everybody
 
-[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci]
+[![NPM Version][npm-img]][npm] [![Build Status][ci-img]][ci] [![jsDelivr Hits][jsdelivr-img]][jsdelivr]
 
 [SVG for Everybody] adds [SVG External Content] support to [all browsers].
 
@@ -8,6 +8,13 @@ To use it now, include the script in your document.
 
 ```html
 <script src="/path/to/svg4everybody.js"></script>
+<script>svg4everybody(); // run it now or whenever you are ready</script>
+```
+
+Or include it via CDN.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/svg4everybody@2/dist/svg4everybody.js"></script>
 <script>svg4everybody(); // run it now or whenever you are ready</script>
 ```
 
@@ -216,6 +223,8 @@ $ svgo spritemap.svg
 [ci-img]:  https://img.shields.io/travis/jonathantneal/svg4everybody.svg
 [npm]:     https://www.npmjs.com/package/svg4everybody
 [npm-img]: https://img.shields.io/npm/v/svg4everybody.svg
+[jsdelivr]: https://www.jsdelivr.com/package/npm/svg4everybody
+[jsdelivr-img]: https://data.jsdelivr.com/v1/package/npm/svg4everybody/badge?style=rounded
 
 [all browsers]: http://caniuse.com/svg
 [David Storey]: https://twitter.com/dstorey/status/626514631884804096
